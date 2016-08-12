@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  django:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    env_file: ./.env
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./:/src/www
+    working_dir: /src/www/app
