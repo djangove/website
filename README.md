@@ -1,5 +1,7 @@
 # website
 
+[![Build Status](https://travis-ci.org/djangove/website.svg?branch=master)](https://travis-ci.org/djangove/website)
+
 Sitio web para la comunidad de DjangoVE
 
 Dependencias:
